@@ -1,0 +1,30 @@
+1. Stomata: 0, paracytic; 1, anisocytic; 2, anomocytic; 3, cyclo-staurocytic
+2. Epidermis abaxial anticlinal cell wall: 0, straight; 1, straight-curved; 2, curved; 3, curved-undulate; 4, undulate
+3. Lamina cuticular ornamentation: 0, smooth; 1, striate
+4. Leaf crystals: 0, druses predominant, prismatic crystals absent or infrequent; 1, prismatic crystals predominant, druses absent or infrequent; 2, druses and prismatic crystals in equal frequency
+5. Midrib adaxial surface cross-section: 0, grooved/concave; 1, flat; 2, convex
+6. Midrib abaxial surface cross-section: 0, convex/angled; 1, flat
+7. Midrib adaxial phloem partition: 0, absent; 1, present. The adaxial phloem partition in some species may be well or poorly developed. In the latter case, this is scored as present
+8. Midrib vascular shape: 0, arc; 1, arc with incurved margins; 2, arc with interrupted bundles; 3, circular; 4, complex open system
+9. Midrib sclerenchyma: 0, discontinuous; 1, continuous
+10. Lamina adaxial cell shape (cross-section): 0, equal width and height; 1, wider than high; 2, higher than wide
+11. Lamina abaxial cell shape (cross-section): 0, equal width and height; 1, wider than high; 2, irregular
+12. Adaxial palisade layer: 0, 1 layer; 1, 2 layers; 2, 3 layers
+13. Abaxial palisade layer: 0, absent; 1, present
+14. Lateral vein bundle sheath extension: 0, absent; 1, present
+15. Foliar sclereid: 0, absent; 1, present
+16. Twig cross-section (mature): 0, terete; 1, angular or winged
+17. Terminal leaf arrangement: 0, opposite pair; 1, verticillate
+18. Leaf base: 0, strongly attenuate; 1, cuneate or slightly attenuate; 2, cordate or rounded
+19. Leaf ratio: 0, 3 times longer than wide or less; 1, more than 3 times longer than wide
+20. Leaf texture (dried): 0, chartaceous or thinly coriaceous; 1, thickly coriaceous
+21. Leaf venation type following Klucking (1989): 0 = predominant venation pattern variation 1; 1 = Predominant venation pattern variation 2; 2, Venation type A; 3, Venation type B & C; 4, Venation type D
+22. Inflorescence type: 0, paniculate; 1, racemose or solitary
+23. Hypanthium shape: 0, obconic/pyriform; 1, clavate/elongated
+24. Calyx coherence: 0, free; 1, calyptrate
+25. Petal coherence: 0, free; 1, coherent
+26. Anther orientation: 0, anther locules elongate and parallel, dehiscence by longitudinal slits; 1, anther locules divaricate, dehiscence by apical slits
+27. Placentation: 0, placenta axile-apical; 1, placenta axile-median
+28. Seed intercotyledonary intrusion: 0, absent; 1, present
+
+Nodes uni-, tri- or penta-lacunar

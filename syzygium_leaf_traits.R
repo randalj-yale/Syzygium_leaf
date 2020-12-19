@@ -16,3 +16,18 @@ plot(model1)
 #mid_scler 0.8585955; leaf_ven_type 1.111111 (remained above 1.05 for all surface defining traits); lat_vein_bs 0.2452138; mid_vas_shape 0.1515344; mid_ad_phloem 0.7646696
 
 #Soh, W.K., Parnell, J. Comparative leaf anatomy and phylogeny of Syzygium Gaertn.. Plant Syst Evol 297, 1 (2011). https://doi.org/10.1007/s00606-011-0495-2
+
+state<-(c("ad","ab")[rep(c(1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,2,1,1,1,1,1,1,1,1,2,1,1,1,2,1))]);names(state)<-syz$tip.label
+syzygium_tree<-make.simmap(syz,state)
+plotSimmap(syzygium_tree)
+#petal coherenace for ab and ad pal layer
+data1<-trait[,c("petal_coher", "ad_pal_layer")]
+data2<-trait[,c("mid_ad_surf", "mid_ab_surf")]
+data3<-trait[,c("lam_ad_shape", "lam_ab_shape")]
+data4<-trait[,c("palisade_percent", "mid_vas_shape")]
+data5<-trait[,c("lamina_thickness", "leaf_ven_type")]
+mvOU(syzygium_tree, data1)
+mvOU(syzygium_tree, data2)
+mvOU(syzygium_tree, data3)
+mvOU(syzygium_tree, data4)
+mvOU(syzygium_tree, data5)
